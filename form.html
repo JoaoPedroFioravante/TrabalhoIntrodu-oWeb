@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>avalie nosso Site!</h1>
+    </header>
+    <main>
+        <form action="memeHtml.jpg" method="get">
+            <p>De sua nota, valores permitidos de 0.1 a 10</p>
+            <p>valores de 0 a 4 = ruim</p>
+            <p>valores de 4.1 a 7 = cumpre o que promete</p>
+            <p>valores de 7.1 a 10 = entrega mais do que promete</p>
+            <input type="number" name="nota" min="0.1" max="10" step="0.1">
+
+            
+            <p>digite seu usuario abaixo</p>
+            <input type="text" name="nomeAvaliador" minlength="4" maxlength="25" placeholder="seu nome aqui">
+
+            <p>digite sua senha abaixo</p>
+            <input type="password" name="senha" id="senha" minlength="4" maxlength="6" placeholder="sua senha aqui">
+            
+            <p>selecione a data que visualizou esta página</p>
+            <input type="date" name="visualizou" min="2025-01-01" max="2025-06-30">
+
+            <p>Em qual horário você está vendo esse site</p>
+            <input type="time" name="tempo" id="hora" min="08:00" max="18:00">
+
+            <p>envie sua revisão e possiveis melhorias para nosso site!</p>
+            <input type="file" name="file" id="file" accept="image/jpeg">
+            <br>
+            <label for="entendimento">Selecione o que você entendeu!</label>
+            <select name="entendeu" id="entendimento">
+                <option value="1" label="selecione uma opção"></option>
+                <option value="2">joão e josé são inimigos</option>
+                <option value="3">joão e josé são grandes amigos</option>
+                <option value="4">joão e josé torcem para o mesmo time</option>
+                <option value="5">joão e josé são irmãos </option>
+                </select>
+            
+            <h2>questionario socioeconomico dos leitores</h2>
+            <p>qual sua ocupação social</p>
+            <input type="radio" name="ocupação" value="0">Não busco Emprego, Nem busco estudar<br>
+            <input type="radio" name="ocupação" value="1">Empregado em regime CLT<br>
+            <input type="radio" name="ocupação" value="2" checked>Estudante<br>
+            <input type="radio" name="ocupação" value="3">Desempregado<br>
+            <input type="radio" name="ocupação" value="4">Funcionário público<br>
+            <input type="radio" name="ocupação" value="5">Autônomo<br>
+            <p>Qual sua faixa de Renda</p>
+            <input type="radio" name="renda"  value="0">R$0,00 a 1518,00 <br>
+            <input type="radio" name="renda"  value="1">R$1519,00 a 3000,00 <br>
+            <input type="radio" name="renda" value="2">R$3001,00 a 7000,00 <br>
+            <input type="radio" name="renda"  value="3">acima de R$7000,00 <br>
+
+            <p>envie o seu formulario</p>
+            <input type="submit" name="enviar" id="envio" >
+            
+        </form>
+    </main>
+    <footer>
+        <p>|<a href="jose.html">Conheça o josé</a>|
+            |<a href="joao.html">Conheça o joão</a>|</p>
+            <p>|<a href="form.html">Avalie a nossa apresentação</a>|</p>
+    </footer>
+</body>
+</html>
