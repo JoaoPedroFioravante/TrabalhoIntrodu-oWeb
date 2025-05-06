@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário</title>
+    <title>Document</title>
 </head>
 <body>
     <header>
@@ -15,7 +15,7 @@
             <p>valores de 0 a 4 = ruim</p>
             <p>valores de 4.1 a 7 = cumpre o que promete</p>
             <p>valores de 7.1 a 10 = entrega mais do que promete</p>
-            <input type="number" name="nota" min="0.1" max="10" step="0.1">
+            <input type="number" name="nota" min="0.1" max="10" step="0.1" placeholder="avalie o site aqui">
 
             
             <p>digite seu usuario abaixo</p>
@@ -25,13 +25,13 @@
             <input type="password" name="senha" id="senha" minlength="4" maxlength="6" placeholder="sua senha aqui">
             
             <p>selecione a data que visualizou esta página</p>
-            <input type="date" name="visualizou" min="2025-01-01" max="2025-06-30">
+            <input type="date" name="visualizou" min="2025-01-01" max="2025-06-30" placeholder="data que visualizou a página">
 
             <p>Em qual horário você está vendo esse site</p>
-            <input type="time" name="tempo" id="hora" min="08:00" max="18:00">
+            <input type="time" name="tempo" id="hora" min="08:00" max="18:00" placeholder="horário que está vendo esse site">
 
             <p>envie sua revisão e possiveis melhorias para nosso site!</p>
-            <input type="file" name="file" id="file" accept="image/jpeg">
+            <input type="file" name="file" id="file" accept="image/jpeg" placeholder="adicione um arquivo para adicionar possiveis melhorias">
             <br>
             <label for="entendimento">Selecione o que você entendeu!</label>
             <select name="entendeu" id="entendimento">
@@ -44,17 +44,17 @@
             
             <h2>questionario socioeconomico dos leitores</h2>
             <p>qual sua ocupação social</p>
-            <input type="radio" name="ocupação" value="0">Não busco Emprego, Nem busco estudar<br>
-            <input type="radio" name="ocupação" value="1">Empregado em regime CLT<br>
-            <input type="radio" name="ocupação" value="2" checked>Estudante<br>
-            <input type="radio" name="ocupação" value="3">Desempregado<br>
-            <input type="radio" name="ocupação" value="4">Funcionário público<br>
-            <input type="radio" name="ocupação" value="5">Autônomo<br>
+            <label ><input type="radio" name="ocupação" value="0">Não busco Emprego, Nem busco estudar</label><br>
+            <label ><input type="radio" name="ocupação" value="1">Empregado em regime CLT</label><br>
+            <label><input type="radio" name="ocupação" value="2" checked>Estudante</label><br>
+            <label><input type="radio" name="ocupação" value="3">Desempregado</label><br>
+            <label><input type="radio" name="ocupação" value="4">Funcionário público</label><br>
+            <label><input type="radio" name="ocupação" value="5">Autônomo</label><br>
             <p>Qual sua faixa de Renda</p>
-            <input type="radio" name="renda"  value="0">R$0,00 a 1518,00 <br>
-            <input type="radio" name="renda"  value="1">R$1519,00 a 3000,00 <br>
-            <input type="radio" name="renda" value="2">R$3001,00 a 7000,00 <br>
-            <input type="radio" name="renda"  value="3">acima de R$7000,00 <br>
+            <label><input type="radio" name="renda"  value="0">R$0,00 a 1518,00</label> <br>
+            <label><input type="radio" name="renda"  value="1">R$1519,00 a 3000,00 </label><br>
+            <label><input type="radio" name="renda" value="2">R$3001,00 a 7000,00 </label><br>
+            <label><input type="radio" name="renda"  value="3">acima de R$7000,00</label> <br>
 
             <p>envie o seu formulario</p>
             <input type="submit" name="enviar" id="envio" >
