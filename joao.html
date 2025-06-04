@@ -4,25 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sobre João</title>
+    <link rel="stylesheet" href="joaoPagina.css">
 </head>
-<body>
+<body >
+    
+    <div id="cabecalho">
     <header>
         <h1>João Pedro Fioravante</h1>
     </header>
-
+    </div>
+    <div id="sobreMim">
     <nav>
         <header>
-            <h2>Um pouco sobre mim!</h2>
+            <h2 id="tituloSobreMim">Um pouco sobre mim!</h2>
         </header>
-        <ul>
-            <li><a href="#quemSou">quem sou eu?</a></li>
-            <li><a href="#oQueGosto">o que eu gosto de fazer?</a></li>
-            <li><a href="#oQueValorizo">o que eu valorizo?</a></li>
-            <li><a href="#minhasCF">minhas Competências e Formações</a></li>
-        </ul>
+        
+            <button><a class="button is-primary  customTamanho " href="#quemSou" >quem sou eu?</a></button>
+            <button><a class="button is-primary  customTamanho" href="#oQueGosto">o que eu gosto de fazer?</a></button>
+            <button><a class="button is-primary  customTamanho" href="#oQueValorizo">o que eu valorizo?</a></button>
+            <button><a class="button is-primary  customTamanho" href="#minhasCF">minhas Competências e Formações</a></button>
+        
     </nav>
-    
+    </div>
     <main>
+        <div class="content">
         <section id="quemSou">
             <header>
                 <h3>Quem sou eu?</h3>
@@ -69,7 +74,7 @@
             </dl>
         </section>
     </main>
-
+    </div>
     <aside>
         <nav>
             <p>|<a href="jose.html">Conheça o josé</a>|
