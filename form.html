@@ -10,6 +10,10 @@
         <h1>avalie nosso Site!</h1>
     </header>
     <main>
+        <section>
+        <header>
+            <h2>cadastro do usuario</h2>
+        </header>
         <form action="memeHtml.jpg" method="get">
             <p>De sua nota, valores permitidos de 0.1 a 10</p>
             <p>valores de 0 a 4 = ruim</p>
@@ -23,7 +27,11 @@
 
             <p>digite sua senha abaixo</p>
             <input type="password" name="senha" id="senha" minlength="4" maxlength="6" placeholder="sua senha aqui">
-            
+            </section>
+            <section>
+                <header>
+                <h2>sobre o site</h2>
+                </header>
             <p>selecione a data que visualizou esta página</p>
             <input type="date" name="visualizou" min="2025-01-01" max="2025-06-30" placeholder="data que visualizou a página">
 
@@ -37,12 +45,15 @@
             <select name="entendeu" id="entendimento">
                 <option value="1" label="selecione uma opção"></option>
                 <option value="2">joão e josé são inimigos</option>
-                <option value="3">joão e josé são grandes amigos</option>
+                <option value="3" >joão e josé são grandes amigos</option>
                 <option value="4">joão e josé torcem para o mesmo time</option>
                 <option value="5">joão e josé são irmãos </option>
                 </select>
-            
+            </section>
+            <section>
+            <header>
             <h2>questionario socioeconomico dos leitores</h2>
+            </header>
             <p>qual sua ocupação social</p>
             <label ><input type="radio" name="ocupação" value="0">Não busco Emprego, Nem busco estudar</label><br>
             <label ><input type="radio" name="ocupação" value="1">Empregado em regime CLT</label><br>
@@ -55,16 +66,19 @@
             <label><input type="radio" name="renda"  value="1">R$1519,00 a 3000,00 </label><br>
             <label><input type="radio" name="renda" value="2">R$3001,00 a 7000,00 </label><br>
             <label><input type="radio" name="renda"  value="3">acima de R$7000,00</label> <br>
-
+            </section>
             <p>envie o seu formulario</p>
             <input type="submit" name="enviar" id="envio" >
             
         </form>
     </main>
-    <footer>
+    <aside>
         <p>|<a href="jose.html">Conheça o josé</a>|
             |<a href="joao.html">Conheça o joão</a>|</p>
             <p>|<a href="form.html">Avalie a nossa apresentação</a>|</p>
+        </aside>
+    <footer>
+        <p>© 2025 José & João</p>
     </footer>
 </body>
 </html>
