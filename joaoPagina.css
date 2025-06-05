@@ -71,3 +71,10 @@ aside{
 footer{
     text-align: center;
 }
+.lista{
+    color: white;
+}
+.TamanhoDT{
+    font-size: larger;
+    font-style: italic;
+}
