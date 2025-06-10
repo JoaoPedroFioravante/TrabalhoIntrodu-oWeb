@@ -10,3 +10,18 @@
 .button.is-primary.submit:hover{
     background-color: blue;
 }
+.button{
+    transition-duration: 0ms;
+    white-space: normal;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+
+.button.customTamanho{
+  width: 20vw;
+  min-height: 10vh;
+  font-size: 1.5vw;
+  margin: 1vh;
+  border: 0.4vw solid rgba(241, 239, 239, 0.425);
+}

@@ -4,34 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conheça-nos</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <header>
         <h1>Conheça-nos</h1>
-        <nav aria-label="Menu principal">
-            <ul>
-                <li><a href="#inicio-da-amizade">Início da Amizade</a></li>
-                <li><a href="#comum">O que Têm em Comum</a></li>
-                <li><a href="#metas">Metas 2025</a></li>
-                <li><a href="#comparativo">Comparativo de Preferências</a></li>
-                <li><a href="#futuro">Futuro</a></li>
-            </ul>
-        </nav>
+        
     </header>
 
     <main>
+        <div class="conteiner">
+        <div class="item" id="conteudo">
         <article>
             <h2>João e José</h2>
 
-            <section id="inicio-da-amizade" aria-labelledby="inicio-da-amizade-title">
-                <h3 id="inicio-da-amizade-title">Início de uma grande amizade</h3>
+           <section id="inicio-da-amizade">
+                <h3 >Início de uma grande amizade</h3>
                 <p>No primeiro dia de faculdade, durante o intervalo, duas pessoas se encontraram por acaso. A conversa começou com uma simples pergunta sobre a academia: "Você também treina?"</p>
                 <p>Esse pequeno começo foi o ponto de partida para uma conversa descontraída sobre treinos, dieta e a adaptação à vida universitária. O encontro, aparentemente simples, marcaria o início de uma amizade que se fortaleceria com o tempo.</p>
                 <img src="https://cdn-icons-png.flaticon.com/512/9009/9009879.png" alt="Aperto de mão" height="300">
             </section>
             
-            <section id="comum" aria-labelledby="comum-title">
-                <h3 id="comum-title">O que Eles Têm em Comum</h3>
+            <section id="comum">
+                <h3 >O que Eles Têm em Comum</h3>
                 
                 <h4>Sedentos por aprender</h4>
                 <p>Ambos são alunos que buscam aprender cada vez mais, aperfeiçoar suas habilidades e expandir seus conhecimentos em diversas áreas. Seja no campo acadêmico, com suas respectivas especializações, ou através de experiências práticas, José e João estão sempre em busca de novos desafios.</p>
@@ -47,8 +42,8 @@
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Santos_Logo.png/960px-Santos_Logo.png" alt="Logo Santos Futebol Clube" height="300" width="300">
             </section>
             
-            <section id="metas" aria-labelledby="metas-title">
-                <h3 id="metas-title">Metas para 2025</h3>
+           <section id="metas">
+                <h3 >Metas para 2025</h3>
                 <p>Juntos, José e João definiram algumas metas importantes para crescer pessoal e profissionalmente:</p>
                 <ol>
                     <li>Concluir todas as disciplinas da faculdade com nota acima de 8,0.</li>
@@ -59,8 +54,8 @@
                 </ol>
             </section>
 
-            <section id="comparativo" aria-labelledby="comparativo-title">
-                <h3 id="comparativo-title">Comparativo de Preferências</h3>
+            <section id="comparativo">
+                <h3 >Comparativo de Preferências</h3>
                 <p>Apesar de muito parecidos, José e João têm pequenas diferenças que os tornam únicos:</p>
                 <table border="1">
                     <thead>
@@ -90,25 +85,32 @@
                 </table>
             </section>
             
-            <section id="futuro" aria-labelledby="futuro-title"> 
-                <h3 id="futuro-title">O que o futuro reserva?</h3>
+            <section id="futuro">
+                <h3 >O que o futuro reserva?</h3>
                 <p>Com base na trajetória até aqui, é fácil imaginar que a amizade entre José e João continuará a florescer. Unidos pelo companheirismo, pelos interesses em comum e pelo respeito mútuo, eles seguem trilhando juntos o caminho da vida universitária, superando desafios e celebrando conquistas.</p>
                 <p>Seja nos estudos, nos treinos ou nos momentos de lazer, os dois demonstram que a amizade verdadeira vai além do tempo e das circunstâncias. O futuro pode ser incerto, mas uma coisa é certa: essa amizade já deixou marcas profundas e continua crescendo a cada dia, com novos sonhos, metas e histórias para viver.</p>
                 <img src="https://static.vecteezy.com/ti/vetor-gratis/p1/33083286-dois-punhos-batendo-junto-punhos-conflitante-ilustracao-gratis-vetor.jpg" alt="Batendo os punhos" height="200">
             </section>
         </article>      
     </main>
-
+    </div>
+    <div class="item" id="barraLateral">
     <aside>
-        <nav aria-label="Links relacionados">
-            <ul>
-                <li><a href="jose.html" target="_blank" rel="noopener noreferrer">Conheça José</a></li>
-                <li><a href="joao.html" target="_blank" rel="noopener noreferrer">Conheça João</a></li>
-                <li><a href="form.html" target="_blank" rel="noopener noreferrer">Avalia-nos</a></li>
-            </ul>
+        <nav>
+                <button> <a href="#inicio-da-amizade">Início da Amizade</a></button>
+                <button><a href="#comum">O que Têm em Comum</a></button>
+                <button><a href="#metas">Metas 2025</a></button>
+                <button><a href="#comparativo">Comparativo de Preferências</a></button>
+                <button><a href="#futuro">Futuro</a></button>
+        
+                <button><a href="jose.html" target="_blank">Conheça José</a></button>
+                <button><a href="joao.html" target="_blank" >Conheça João</a></button>
+                <button><a href="form.html" target="_blank" >Avalia-nos</a></button>
+          
         </nav>
     </aside>
-
+    </div>
+    </div>
     <footer>
         <p>© 2025 José & João</p>
     </footer>
