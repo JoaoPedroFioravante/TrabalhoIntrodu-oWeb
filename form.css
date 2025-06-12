@@ -1,27 +1,128 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css";
-.button.is-primary{
+
+
+.button.is-primary {
     background-color: rgb(11, 56, 255);
     color: white;
-
 }
-.button{
-    border: 2px solid rgb(255, 255, 255);
-}
-.button.is-primary.submit:hover{
+.button.is-primary:hover {
     background-color: blue;
 }
-.button{
+.button {
     transition-duration: 0ms;
     white-space: normal;
     word-wrap: break-word;
     text-align: center;
+    border: 2px solid white;
+}
+.button.customTamanho {
+    width: 20vw;
+    min-height: 10vh;
+    font-size: 1.5vw;
+    margin: 1vh;
+    border: 0.4vw solid rgba(241, 239, 239, 0.425);
 }
 
 
-.button.customTamanho{
-  width: 20vw;
-  min-height: 10vh;
-  font-size: 1.5vw;
-  margin: 1vh;
-  border: 0.4vw solid rgba(241, 239, 239, 0.425);
+h2 {
+    color: #3B82F6;
+    font-size: 5vh;
+}
+
+
+.cadas {
+    border: 3px solid black;
+    border-radius: 25px;
+    padding: 1vh 2vw;
+    width: 90%;
+    max-width: 500px;
+}
+
+
+.conteiner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #F9FAFB;
+}
+.item {
+    color: black;
+    margin: 10px;
+    flex: 1 1 300px;
+    max-width: 100%;
+}
+
+
+p, input, option, label, form, select {
+    font-size: 2.5vh;
+}
+
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+#barraLateral {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    align-items: center;
+    background-color: #121212;;
+    padding: 2vh;
+}
+#cadastro, #sobreSite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2vh;
+    flex: 4;
+}
+
+
+#cabecalho {
+    text-align: center;
+    color: white;
+    background-color:  #1E2A78;
+    padding: 2vh;
+    font-size: 5vh;
+}
+
+@media (max-width: 768px) {
+    .button.customTamanho {
+        width: 80vw;
+        min-height: 8vh;
+        font-size: 4vw;
+    }
+
+    h2 {
+        font-size: 3.5vh;
+    }
+
+    p, input, option, label, form, select {
+        font-size: 2.3vh;
+    }
+
+    .conteiner {
+        flex-direction: column;
+    }
+
+    #cabecalho {
+        font-size: 4vh;
+    }
+}
+input.cadas[type="text"] {
+    font-size: 2.5vh;
+    padding: 1.2vh 1vw;
+    height: 6vh;
+}
+footer{
+    text-align: center;
+    min-height: 5vh;
+    font-size: 3vh;
+    background-color: #3B82F6;
+    color: rgb(255, 255, 255);
 }

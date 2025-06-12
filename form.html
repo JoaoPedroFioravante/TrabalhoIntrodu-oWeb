@@ -7,31 +7,43 @@
     <link rel="stylesheet" href="form.css">
 </head>
 <body >
-    <header>
+    <header id="cabecalho">
         <h1>avalie nosso Site!</h1>
     </header>
+    <div class="conteiner">
+    <div class="item" id="barraLateral">
+        <aside>
+            <button class="button is-primary is-fullwidth customTamanho"><a href="jose.html">Conheça o josé</a></button>
+            <button class="button is-primary is-fullwidth customTamanho"><a href="joao.html">Conheça o joão</a></button>
+            <button class="button is-primary is-fullwidth customTamanho"><a href="form.html">Avalie a nossa apresentação</a></button>
+        </aside>
+    </div>
+    <div class="item" id="cadastro">
     <main>
+        
         <section>
         <header>
-            <h2>cadastro do usuario</h2>
+            <h2>Cadastro do usuario</h2>
         </header>
         <form action="memeHtml.jpg" method="get">
             <p>De sua nota, valores permitidos de 0.1 a 10</p>
             <p>valores de 0 a 4 = ruim</p>
             <p>valores de 4.1 a 7 = cumpre o que promete</p>
             <p>valores de 7.1 a 10 = entrega mais do que promete</p>
-            <input type="number" name="nota" min="0.1" max="10" step="0.1" placeholder="avalie o site aqui">
+            <input class="cadas" type="number" name="nota" min="0.1" max="10" step="0.1" placeholder="avalie o site aqui">
 
             
             <p>digite seu usuario abaixo</p>
-            <input type="text" name="nomeAvaliador" minlength="4" maxlength="25" placeholder="seu nome aqui">
+            <input class="cadas" type="text" name="nomeAvaliador" minlength="4" maxlength="25" placeholder="seu nome aqui">
 
             <p>digite sua senha abaixo</p>
-            <input type="password" name="senha" id="senha" minlength="4" maxlength="6" placeholder="sua senha aqui">
+            <input class="cadas" type="password" name="senha" id="senha" minlength="4" maxlength="6" placeholder="sua senha aqui">
             </section>
-            <section>
-                <header>
-                <h2>sobre o site</h2>
+        </div>
+        <div class="item" id="sobreSite">
+        <section>
+        <header>
+        <h2>Sobre o site</h2>
                 </header>
             <p>selecione a data que visualizou esta página</p>
             <input type="date" name="visualizou" min="2025-01-01" max="2025-06-30" placeholder="data que visualizou a página">
@@ -53,7 +65,7 @@
             </section>
             <section>
             <header>
-            <h2>questionario socioeconomico dos leitores</h2>
+            <h2>Questionario socioeconomico dos leitores</h2>
             </header>
             <p>qual sua ocupação social</p>
             <label ><input type="radio" name="ocupação" value="0">Não busco Emprego, Nem busco estudar</label><br>
@@ -69,15 +81,13 @@
             <label><input type="radio" name="renda"  value="3">acima de R$7000,00</label> <br>
             </section>
             <p>envie o seu formulario</p>
-            <input class="button is-primary submit" type="submit" name="enviar" id="envio" >
+            <input class="button is-primary submit customTamanho" type="submit" name="enviar" id="envio" >
             
         </form>
     </main>
-    <aside>
-        <p>|<a href="jose.html">Conheça o josé</a>|</p>
-           <p>|<a href="joao.html">Conheça o joão</a>|</p>
-            <p>|<a href="form.html">Avalie a nossa apresentação</a>|</p>
-        </aside>
+    </div>
+   
+    </div>
     <footer>
         <p>© 2025 José & João</p>
     </footer>
